@@ -30,28 +30,12 @@ To run this application, the user must clone all the files from this repository.
 
  ## Usage
 
- The user is first presented with the landing page above.  If data has already been added, then the Workout status will also be shown on this page.
-
-![alt text](/ReadmeImages/LandingPagewithData.png) 
-
-Clicking on New Workout will display the following:
-
-![alt text](/ReadmeImages/AddExercise.png) 
-
-Completing all the fields and clicking on the 'Add Exercise' button. 
-
-All data will be displayed on the Stats page - by clicking on 
-
-'Dashboard' in the top left of the screen.
-
-The Stats Page
-![alt text](/ReadmeImages/Stats.png) 
-
+ The user is first presented with the landing page above.  Transactions are added by completing 'Name of Transaction' with a description and an amount in 'Transaction amount'.  This amount will be either incremented or decremented from the running total (which is displayed at the top of the screen).  Beneath the transactions a graph displaying total balance against time is displayed and changes as new transactions are added.
+ 
  ## Credits
- 1. BCS for their timely support.lp and 
- 2. Livvy Owen for pointing me in the right direction.
- 3. Ben Ashley for his help and explanations regarding express Router.
-
+ 
+ 1. Ben Ashley for his help and explanations regarding Heroku MongoDB Atlas deployment.
+ 
 ## *Contributing and Questions*
 For any suggestions or questions, please feel free to contact us via our Github pages shown below.
 
