@@ -15,10 +15,20 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost/budget", {
+//mongoose.connect("mongodb://localhost/budget", {
+ // useNewUrlParser: true,
+ // useFindAndModify: false
+//});
+// Mongoose Connection
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/radiant-brook-36574", {
   useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useCreateIndex: true,
   useFindAndModify: false
 });
+
+mongoose.connection.on('connected', () => console.log('Connected to MongoDB Endpoint'));
+mongoose.connection.on('error', (err) => console.log(`Mongoose default connection error: ${err}`));
 
 // routes
 app.use(require("./routes/api.js"));
