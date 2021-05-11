@@ -20,7 +20,7 @@ app.use(express.static("public"));
  // useFindAndModify: false
 //});
 // Mongoose Connection
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/radiant-brook-36574", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget-tracker", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
