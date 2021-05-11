@@ -7,7 +7,7 @@ and get push notifications.  PWAs are web apps that run in a browser but behave 
 
 This is the link to the Heroku deployment:  
 
-https://fierce-citadel-64399.herokuapp.com/
+https://radiant-brook-36574.herokuapp.com/
 
 ## *Table of Contents*
 - [Description](#description)
