@@ -1,7 +1,7 @@
 {
   "name": "budget-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "##Introduction A PWA (Progressive Web Application) is the creation of a web application with Vanilla JavaScript that runs within the browser (just like a normal website). However it can also harness the power of native device features, so that when it is installed on a mobile, this application can still be accessed offline  and get push notifications.  PWAs are web apps that run in a browser but behave very much like a mobile app.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,10 +19,12 @@
   },
   "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "lite-server": "^2.5.3",
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1"
-  }
+  },
+  "devDependencies": {}
 }
